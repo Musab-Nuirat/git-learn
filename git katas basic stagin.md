@@ -1,30 +1,30 @@
-## What's the content of file.txt? 
+### What's the content of file.txt? 
 1
 
-## Overwrite the content in file.txt: echo 2 > file.txt to change the state of your file in the working directory 
-## What does git diff tell you?
+### Overwrite the content in file.txt: echo 2 > file.txt to change the state of your file in the working directory 
+### What does git diff tell you?
 The file.txt has been modified from 1 to 2 
 
-## What does git diff --staged tell you? why is this blank?
+### What does git diff --staged tell you? why is this blank?
 nothing
 
-## Run git add file.txt to stage your changes from the working directory.
-## What does git diff tell you?
+### Run git add file.txt to stage your changes from the working directory.
+### What does git diff tell you?
 nothing
 
-## What does git diff --staged tell you?
+### What does git diff --staged tell you?
 the file.txt has been modified from the last staged status to now, from 1 to 2 
 
-## Overwrite the content in file.txt: echo 3 > file.txt to change the state of your file in the working directory 
-## What does git diff tell you?
+### Overwrite the content in file.txt: echo 3 > file.txt to change the state of your file in the working directory 
+### What does git diff tell you?
 the file.txt has been modified from 2 to 3 
 
-## What does git diff --staged tell you?
+### What does git diff --staged tell you?
 the file.txt has been modified from the last staged status to now, from 1 to 2 
 
-## Explain what is happening
+### Explain what is happening
 
-## Run git status and observe that file.txt are present twice in the output.
+### Run git status and observe that file.txt are present twice in the output.
 yes, the first saying that the file should be committed, and the second saying that the changes not staged yet
 
 ## Run git restore --staged file.txt to unstage the change
