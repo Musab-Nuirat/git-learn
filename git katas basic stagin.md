@@ -27,25 +27,25 @@ the file.txt has been modified from the last staged status to now, from 1 to 2
 ### Run git status and observe that file.txt are present twice in the output.
 yes, the first saying that the file should be committed, and the second saying that the changes not staged yet
 
-## Run git restore --staged file.txt to unstage the change
-## What does git status tell you now?
+### Run git restore --staged file.txt to unstage the change
+### What does git status tell you now?
 it restore the status of the file.txt in the staging area, so now only the second msg remains in the git status (changes not staged yet)
 
-## Stage the change and make a commit
-## What does the log look like?
+### Stage the change and make a commit
+### What does the log look like?
 It will show the details of the commit i have just made.
 It will include the commit hash, author, date, and the commit message.
 
-## Overwrite the content in file.txt: echo 4 > file.txt
-## What is the content of file.txt?
+### Overwrite the content in file.txt: echo 4 > file.txt
+### What is the content of file.txt?
 4
 
-## What does git status tell us?
+### What does git status tell us?
 The file.txt not been staged yet
 
-## Run git restore file.txt
-## What is the content of file.txt?
+### Run git restore file.txt
+### What is the content of file.txt?
 3
 
-## What does git status tell us?
+### What does git status tell us?
 there is nothing to be committed 
