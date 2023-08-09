@@ -1,0 +1,22 @@
+What's the content of file.txt?
+Overwrite the content in file.txt: echo 2 > file.txt to change the state of your file in the working directory (or sc file.txt '2' in PowerShell)
+What does git diff tell you?
+What does git diff --staged tell you? why is this blank?
+Run git add file.txt to stage your changes from the working directory.
+What does git diff tell you?
+What does git diff --staged tell you?
+Overwrite the content in file.txt: echo 3 > file.txt to change the state of your file in the working directory (or sc file.txt '3' in PowerShell).
+What does git diff tell you?
+What does git diff --staged tell you?
+Explain what is happening
+Run git status and observe that file.txt are present twice in the output.
+Run git restore --staged file.txt to unstage the change
+What does git status tell you now?
+Stage the change and make a commit
+What does the log look like?
+Overwrite the content in file.txt: echo 4 > file.txt (or sc file.txt '4' in PowerShell)
+What is the content of file.txt?
+What does git status tell us?
+Run git restore file.txt
+What is the content of file.txt?
+What does git status tell us?
