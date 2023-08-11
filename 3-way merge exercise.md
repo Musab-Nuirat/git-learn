@@ -16,9 +16,20 @@ You again live in your own branch, this time we will be doing a bit of juggling 
 6. Create a file README.md with information about this repository
 7. Add the README.md file to staging area and make the commit
 8. What is the output of `git log --oneline --graph --all`?
+#### * 3d61536 (greeting) change greeting
+#### * 4cbabf2 (HEAD -> master) Add content to greeting.txt
+#### * 27f341c Add file greeting.txt
+
 9. Diff the branches
+#### @@ -1 +1 @@
+#### -salam alekom
+#### +hello
+
 10. Merge the greeting branch into master
 11. What is the output of `git log --oneline --graph --all` now? Observe the extra merge commit created with the message "Merge branch 'greeting'".
+#### * 3d61536 (HEAD -> master, greeting) change greeting
+#### * 4cbabf2 Add content to greeting.txt
+#### * 27f341c Add file greeting.txt
 
 ## Useful commands
 
